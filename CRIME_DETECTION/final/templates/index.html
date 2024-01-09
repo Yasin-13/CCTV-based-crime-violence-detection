@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CCTV Crime Detection</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Poppins: 300, 400, 500, 600, 700, 800, 900&display=swap');
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffffff;
+            color: #000000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 30px;
+        }
+        header h1 {
+            font-size: 3rem;
+        }
+
+        header h1 span{
+            color: red;
+
+        }
+        .logo {
+            width: 200px;
+        }
+        .nav {
+            display: flex;
+        }
+        .nav a {
+            color: #000000;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 1.2rem;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .form-container {
+            text-align: center;
+        }
+        form {
+            margin-top: 20px;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+        }
+        select, button {
+            padding: 10px;
+            font-size: 1rem;
+            width: 100%;
+            border: 1px solid #ffffff;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        button {
+            background-color: #353a40;
+            color: #ffffff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><span>Crime</span>Detection</h1>
+        <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#">Tech Stacks</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="form-container">
+            <h2>Select Input Source</h2>
+            <form method="POST" action="/detect_crime">
+                <label for="source">Choose a Source:</label>
+                <select id="source" name="source">
+                    <option value="video">Input Video</option>
+                    <option value="webcam">Live Webcam</option>
+                </select>
+                <button type="submit">Start Detection</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
+
+<form method="POST" action="/detect_crime">
