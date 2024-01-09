@@ -15,6 +15,7 @@ Feel free to check out our profiles and fork the repo for further ideas.
 
 STEPS FOR RUNNING THE PROJECT:
 ```git clone the repo```
+
 ```cd CRIME_DETECTION```
 ```cd final```
 ```pip install requirements.txt```
