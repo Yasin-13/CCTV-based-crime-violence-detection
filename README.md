@@ -14,13 +14,20 @@ Feel free to check out our profiles and fork the repo for further ideas.
 
 
 STEPS FOR RUNNING THE PROJECT:
+
 ```git clone the repo```
 
 ```cd CRIME_DETECTION```
+
 ```cd final```
+
 ```pip install requirements.txt```
-```py cam.py```     (Use this command for detection with an live camera/web cam).
-``` py app.py```  (Use this command for web interface).
+
+```py cam.py```
+(Use this command for detection with an live camera/web cam).
+
+``` py app.py``` 
+(Use this command for web interface).
 
 For Credits TAG:
 -Raj Gandhi    : https://github.com/Rajgandhi04.
