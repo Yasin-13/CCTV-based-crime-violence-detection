@@ -4,7 +4,7 @@ This project stands out for its flawless real-time alert integration with Telegr
 
 🚀 **CCTV CRIME DETECTION**
 
-This project is brought to you by YAAR. Special thanks to the following contributors for their valuable contributions:
+This project is brought to you by Team YAAR. Special thanks to the following contributors for their valuable contributions:
 
 - Mohamed Yasin -> https://github.com/yasin-coder.
 - Aryan Deshmukh
@@ -20,6 +20,7 @@ STEPS FOR RUNNING THE PROJECT:
 4. pip install requirements.txt
 5. py cam.py     (Use this command for detection with an live camera/web cam).
 6. py app.py     (Use this command for web interface).
+   ```sdsd```
 
 For Credits TAG:
 -Raj Gandhi    : https://github.com/Rajgandhi04.
